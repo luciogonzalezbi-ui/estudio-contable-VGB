@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentina González | Estudio Contable & Asesoría Estratégica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'c-navy': '#0f172a',
+                        'c-slate': '#1e293b',
+                        'c-gold': '#d97706',
+                        'c-goldlight': '#f59e0b',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-amber-600 selection:text-white">
+
+    <header class="sticky top-0 z-50 bg-slate-950/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#inicio" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-600 to-amber-500 flex items-center justify-center shadow-lg shadow-amber-600/20 group-hover:scale-105 transition-transform text-white font-bold text-lg">VG</div>
+                <div class="flex flex-col">
+                    <span class="text-lg font-extrabold tracking-tight text-white">VALENTINA GONZÁLEZ</span>
+                    <span class="text-[10px] tracking-widest text-amber-500 uppercase font-semibold">Estudio Contable & Tributario</span>
+                </div>
+            </a>
+            <nav class="hidden md:flex items-center gap-8 font-medium text-sm">
+                <a href="#inicio" class="text-white hover:text-amber-500 transition-colors">Inicio</a>
+                <a href="#servicios" class="text-slate-300 hover:text-amber-500 transition-colors">Servicios</a>
+                <a href="#calculadora" class="text-slate-300 hover:text-amber-500 transition-colors">Simulador</a>
+                <a href="#faq" class="text-slate-300 hover:text-amber-500 transition-colors">Preguntas Frecuentes</a>
+                <a href="#sobre-mi" class="text-slate-300 hover:text-amber-500 transition-colors">Sobre Mí</a>
+                <a href="#contacto" class="text-slate-300 hover:text-amber-500 transition-colors">Contacto</a>
+            </nav>
+            <div class="flex items-center gap-4">
+                <a href="#contacto" class="hidden sm:inline-flex px-5 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-semibold text-sm transition-all shadow-lg shadow-amber-600/20">Agendar Cita</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="inicio" class="relative overflow-hidden pt-20 pb-32 lg:pt-32 lg:pb-40 border-b border-slate-800 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#d97706_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="absolute top-1/4 right-10 w-96 h-96 bg-amber-600/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900 border border-slate-800 text-amber-500 text-xs font-semibold uppercase tracking-wider">
+                        <span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span> Asesoría Contable & Planificación Fiscal Avanzada
+                    </div>
+                    <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-tight text-white">
+                        Tranquilidad Fiscal y <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-amber-200">Crecimiento Financiero</span>
+                    </h1>
+                    <p class="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto lg:mx-0 font-normal">
+                        Optimizamos la carga tributaria de tu empresa, monotributo o emprendimiento con un enfoque riguroso, digital y 100% personalizado.
+                    </p>
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                        <a href="#contacto" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-base transition-all shadow-xl shadow-amber-600/30 text-center flex items-center justify-center gap-2">
+                            Consulta Diagnóstica sin Cargo
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                        </a>
+                        <a href="#servicios" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 font-semibold text-base transition-all border border-slate-800 text-center">Explorar Servicios</a>
+                    </div>
+                </div>
+                <div class="lg:col-span-5">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <div class="absolute -inset-1 rounded-3xl bg-gradient-to-tr from-amber-600 to-amber-400 opacity-20 blur-xl"></div>
+                        <div class="relative bg-slate-900 border border-slate-800 rounded-3xl p-8 shadow-2xl space-y-6">
+                            <div class="flex items-center gap-4 border-b border-slate-800 pb-5">
+                                <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-600 to-amber-700 flex items-center justify-center text-white font-bold text-2xl shadow-md">VG</div>
+                                <div>
+                                    <h3 class="font-extrabold text-white text-lg">Valentina González</h3>
+                                    <p class="text-xs text-amber-500 font-medium">Contadora Pública Nacional (CPCE)</p>
+                                    <p class="text-xs text-slate-400 mt-0.5">Especialista en Fiscalidad PyME</p>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300"><span>Declaraciones Juradas (IVA, Ganancias)</span><span class="text-emerald-400 font-bold">Al día</span></div>
+                                <div class="flex items-center justify-between p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300"><span>Auditoría de Balances y Flujos</span><span class="text-amber-500 font-bold">Certificada</span></div>
+                                <div class="flex items-center justify-between p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300"><span>Portal Cloud del Cliente</span><span class="text-emerald-400 font-bold">Acceso 24/7</span></div>
+                            </div>
+                            <div class="pt-2">
+                                <div class="flex items-center justify-between text-xs text-slate-400 mb-2"><span>Eficiencia en Presentaciones</span><span class="text-white font-medium">100% Sin Multas</span></div>
+                                <div class="w-full bg-slate-950 h-2 rounded-full overflow-hidden border border-slate-800"><div class="bg-gradient-to-r from-amber-600 to-amber-400 h-full w-[100%] rounded-full"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-slate-900/60 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-6 rounded-2xl bg-slate-950/50 border border-slate-800 flex flex-col items-center"><span class="text-3xl sm:text-4xl font-extrabold text-amber-500 mb-1">+10</span><h3 class="font-bold text-white text-sm mb-1">Años de Trayectoria</h3><p class="text-xs text-slate-400">Solidez y experiencia comprobada</p></div>
+                <div class="p-6 rounded-2xl bg-slate-950/50 border border-slate-800 flex flex-col items-center"><span class="text-3xl sm:text-4xl font-extrabold text-amber-500 mb-1">+250</span><h3 class="font-bold text-white text-sm mb-1">Clientes Activos</h3><p class="text-xs text-slate-400">Comercios, PyMEs y profesionales</p></div>
+                <div class="p-6 rounded-2xl bg-slate-950/50 border border-slate-800 flex flex-col items-center"><span class="text-3xl sm:text-4xl font-extrabold text-amber-500 mb-1">0%</span><h3 class="font-bold text-white text-sm mb-1">Retrasos Fiscales</h3><p class="text-xs text-slate-400">Puntualidad rigurosa garantizada</p></div>
+                <div class="p-6 rounded-2xl bg-slate-950/50 border border-slate-800 flex flex-col items-center"><span class="text-3xl sm:text-4xl font-extrabold text-amber-500 mb-1">99.8%</span><h3 class="font-bold text-white text-sm mb-1">Satisfacción</h3><p class="text-xs text-slate-400">Acompañamiento cercano y ágil</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+            <span class="text-amber-500 text-xs font-extrabold uppercase tracking-widest px-3 py-1 bg-amber-500/10 rounded-full border border-amber-500/20">Áreas de Especialización</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Servicios Contables & Tributarios</h2>
+            <p class="text-slate-400">Soluciones estructuradas para simplificar tus obligaciones legales y potenciar la rentabilidad de tu negocio.</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="group bg-slate-900 border border-slate-800 rounded-3xl p-8 flex flex-col justify-between hover:border-amber-500/50 transition-all shadow-xl">
+                <div><div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-500 flex items-center justify-center mb-6 font-bold text-2xl border border-amber-500/20">📊</div>
+                <h3 class="text-xl font-bold text-white mb-3">Liquidación Fiscal & DDJJ</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Confección precisa y presentación en tiempo y forma de IVA, Impuesto a las Ganancias, Bienes Personales e Ingresos Brutos.</p></div>
+                <a href="#contacto" class="text-amber-500 hover:text-amber-400 text-sm font-semibold flex items-center gap-2 group-hover:translate-x-1 transition-transform">Consultar servicio <span class="text-lg">→</span></a>
+            </div>
+            <div class="group bg-slate-900 border border-slate-800 rounded-3xl p-8 flex flex-col justify-between hover:border-amber-500/50 transition-all shadow-xl">
+                <div><div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-500 flex items-center justify-center mb-6 font-bold text-2xl border border-amber-500/20">🏢</div>
+                <h3 class="text-xl font-bold text-white mb-3">Gestión Integral para PyMEs</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Contabilidad mensual, estados contables certificados, balances de ejercicio y análisis financiero para la toma de decisiones gerenciales.</p></div>
+                <a href="#contacto" class="text-amber-500 hover:text-amber-400 text-sm font-semibold flex items-center gap-2 group-hover:translate-x-1 transition-transform">Consultar servicio <span class="text-lg">→</span></a>
+            </div>
+            <div class="group bg-slate-900 border border-slate-800 rounded-3xl p-8 flex flex-col justify-between hover:border-amber-500/50 transition-all shadow-xl">
+                <div><div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-500 flex items-center justify-center mb-6 font-bold text-2xl border border-amber-500/20">👥</div>
+                <h3 class="text-xl font-bold text-white mb-3">Sueldos y Cargas Sociales</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Emisión de recibos de haberes, liquidación de formulario F.931, altas y bajas laborales, y asesoramiento sobre convenios colectivos.</p></div>
+                <a href="#contacto" class="text-amber-500 hover:text-amber-400 text-sm font-semibold flex items-center gap-2 group-hover:translate-x-1 transition-transform">Consultar servicio <span class="text-lg">→</span></a>
+            </div>
+            <div class="group bg-slate-900 border border-slate-800 rounded-3xl p-8 flex flex-col justify-between hover:border-amber-500/50 transition-all shadow-xl">
+                <div><div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-500 flex items-center justify-center mb-6 font-bold text-2xl border border-amber-500/20">🚀</div>
+                <h3 class="text-xl font-bold text-white mb-3">Monotributo y Autónomos</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Inscripciones iniciales, control permanente de facturación, recategorizaciones semestrales y asesoría para evitar exclusiones.</p></div>
+                <a href="#contacto" class="text-amber-500 hover:text-amber-400 text-sm font-semibold flex items-center gap-2 group-hover:translate-x-1 transition-transform">Consultar servicio <span class="text-lg">→</span></a>
+            </div>
+            <div class="group bg-slate-900 border border-slate-800 rounded-3xl p-8 flex flex-col justify-between hover:border-amber-500/50 transition-all shadow-xl">
+                <div><div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-500 flex items-center justify-center mb-6 font-bold text-2xl border border-amber-500/20">⚖️</div>
+                <h3 class="text-xl font-bold text-white mb-3">Constitución de Sociedades</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Diseño de la estructura societaria óptima (SRL, SA, SAS), redacción de estatutos e inscripciones en organismos de control.</p></div>
+                <a href="#contacto" class="text-amber-500 hover:text-amber-400 text-sm font-semibold flex items-center gap-2 group-hover:translate-x-1 transition-transform">Consultar servicio <span class="text-lg">→</span></a>
+            </div>
+            <div class="group bg-slate-900 border border-slate-800 rounded-3xl p-8 flex flex-col justify-between hover:border-amber-500/50 transition-all shadow-xl">
+                <div><div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-500 flex items-center justify-center mb-6 font-bold text-2xl border border-amber-500/20">💡</div>
+                <h3 class="text-xl font-bold text-white mb-3">Auditoría & Planificación Fiscal</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Estudio pormenorizado de la carga tributaria para planificar legalmente el diferimiento y ahorro impositivo de tu actividad.</p></div>
+                <a href="#contacto" class="text-amber-500 hover:text-amber-400 text-sm font-semibold flex items-center gap-2 group-hover:translate-x-1 transition-transform">Consultar servicio <span class="text-lg">→</span></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="calculadora" class="py-24 bg-slate-900/40 border-t border-b border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 space-y-3">
+                <span class="text-amber-500 text-xs font-extrabold uppercase tracking-widest px-3 py-1 bg-amber-500/10 rounded-full border border-amber-500/20">Herramienta Interactiva</span>
+                <h2 class="text-3xl font-extrabold text-white">Simulador de Régimen Fiscal Preliminar</h2>
+                <p class="text-slate-400 text-sm">Desliza para calcular estimativamente cuál podría ser el encuadre tributario idóneo según tu facturación anual.</p>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 shadow-2xl space-y-6">
+                <div>
+                    <label class="block text-sm font-semibold text-slate-300 mb-2">Facturación Anual Estimada:</label>
+                    <input type="range" id="tax-slider" min="5000" max="150000" step="5000" value="40000" class="w-full accent-amber-500 cursor-pointer h-2 bg-slate-950 rounded-lg" oninput="updateTaxSimulation(this.value)">
+                    <div class="flex justify-between text-xs text-slate-500 mt-2 font-mono">
+                        <span>$5,000</span>
+                        <span id="slider-val" class="text-amber-500 font-bold text-base">$40,000</span>
+                        <span>$150,000+</span>
+                    </div>
+                </div>
+                <div class="grid sm:grid-cols-2 gap-6 pt-4 border-t border-slate-800">
+                    <div class="bg-slate-950 p-5 rounded-2xl border border-slate-800 space-y-2">
+                        <span class="text-xs text-slate-400 uppercase font-semibold">Régimen Sugerido:</span>
+                        <h4 id="sim-regime" class="text-xl font-bold text-amber-500">Monotributo / Régimen Simplificado</h4>
+                        <p id="sim-desc" class="text-xs text-slate-400 leading-relaxed">Adecuado para actividades independientes con facturación moderada y cargas fijas integradas.</p>
+                    </div>
+                    <div class="bg-slate-950 p-5 rounded-2xl border border-slate-800 space-y-2">
+                        <span class="text-xs text-slate-400 uppercase font-semibold">Carga Tributaria Estimada:</span>
+                        <h4 id="sim-tax" class="text-xl font-bold text-emerald-400">Cuota Fija Mensual Unificada</h4>
+                        <p class="text-xs text-slate-400 leading-relaxed">Simplicidad administrativa sin necesidad de balances contables mensuales complejos.</p>
+                    </div>
+                </div>
+                <div class="text-center pt-2">
+                    <a href="#contacto" class="inline-block px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold text-sm transition-colors border border-slate-700">Validar este resultado en una consulta con Valentina</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-24 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 space-y-4">
+            <span class="text-amber-500 text-xs font-extrabold uppercase tracking-widest px-3 py-1 bg-amber-500/10 rounded-full border border-amber-500/20">Resolviendo Dudas</span>
+            <h2 class="text-3xl font-extrabold text-white">Preguntas Frecuentes</h2>
+            <p class="text-slate-400">Todo lo que necesitas saber antes de comenzar a trabajar con nuestro estudio.</p>
+        </div>
+        <div class="space-y-4">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 cursor-pointer transition-all" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center font-bold text-white text-base"><span>¿Cómo se realiza el traspaso de mi contabilidad actual al estudio?</span><span class="text-amber-500 text-xl faq-icon">+</span></div>
+                <div class="text-slate-400 text-sm mt-3 leading-relaxed hidden faq-content">Nosotros nos encargamos de todo el proceso de coordinación con tu contador anterior. Solicitamos las claves fiscales, respaldos contables y declaraciones juradas previas para asegurar una transición limpia y sin sobresaltos.</div>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 cursor-pointer transition-all" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center font-bold text-white text-base"><span>¿Atienden a clientes de todo el país o sólo de forma presencial?</span><span class="text-amber-500 text-xl faq-icon">+</span></div>
+                <div class="text-slate-400 text-sm mt-3 leading-relaxed hidden faq-content">Trabajamos de manera 100% digital e híbrida. Contamos con clientes en diversas regiones y provincias, utilizando canales seguros de comunicación, firma digital y nuestro portal cloud exclusivo.</div>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 cursor-pointer transition-all" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center font-bold text-white text-base"><span>¿Qué incluye la consulta diagnóstica inicial sin cargo?</span><span class="text-amber-500 text-xl faq-icon">+</span></div>
+                <div class="text-slate-400 text-sm mt-3 leading-relaxed hidden faq-content">Analizamos tu situación fiscal actual, revisamos si existen recategorizaciones pendientes, multas por regularizar o oportunidades legales de optimización de impuestos en una sesión de 30 minutos.</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-slate-800">
+        <div class="grid lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-5 relative">
+                <div class="absolute -inset-1 rounded-3xl bg-gradient-to-tr from-amber-600 to-amber-400 opacity-20 blur-xl"></div>
+                <div class="relative bg-slate-900 border border-slate-800 rounded-3xl p-8 shadow-2xl space-y-6 text-center">
+                    <div class="w-32 h-32 mx-auto rounded-full bg-gradient-to-tr from-amber-600 to-amber-700 flex items-center justify-center text-white font-extrabold text-5xl shadow-xl border-4 border-slate-800">VG</div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-white">Valentina González</h3>
+                        <p class="text-amber-500 text-sm font-semibold mt-1">Contadora Pública Nacional</p>
+                    </div>
+                    <p class="text-xs text-slate-400 italic">"La contabilidad no es solo cumplir con normas fiscales; es la brújula estratégica que permite que un negocio prospere con seguridad."</p>
+                </div>
+            </div>
+            <div class="lg:col-span-7 space-y-6">
+                <span class="text-amber-500 text-xs font-extrabold uppercase tracking-widest px-3 py-1 bg-amber-500/10 rounded-full border border-amber-500/20">Perfil Profesional</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Rigor Técnico, Cercanía y Visión Estratégica</h2>
+                <p class="text-slate-300 leading-relaxed">Con más de una década de experiencia en el asesoramiento integral a empresas y profesionales independientes, mi objetivo es traducir la complejidad del sistema tributario en decisiones claras, seguras y rentables para mis clientes.</p>
+                <div class="grid sm:grid-cols-2 gap-4 pt-2">
+                    <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-center gap-3"><span class="text-amber-500 font-bold text-lg">✓</span><span class="text-sm font-semibold text-white">Atención Directa y Sin Intermediarios</span></div>
+                    <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-center gap-3"><span class="text-amber-500 font-bold text-lg">✓</span><span class="text-sm font-semibold text-white">Actualización Fiscal Permanente</span></div>
+                    <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-center gap-3"><span class="text-amber-500 font-bold text-lg">✓</span><span class="text-sm font-semibold text-white">Confidencialidad Absoluta</span></div>
+                    <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-center gap-3"><span class="text-amber-500 font-bold text-lg">✓</span><span class="text-sm font-semibold text-white">Plataforma Digital de Gestión</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-gradient-to-r from-slate-900 to-slate-950 border border-slate-800 rounded-3xl p-8 sm:p-12 lg:p-16 shadow-2xl grid lg:grid-cols-12 gap-12">
+            <div class="lg:col-span-6 space-y-6">
+                <span class="text-amber-500 text-xs font-extrabold uppercase tracking-widest px-3 py-1 bg-amber-500/10 rounded-full border border-amber-500/20">Hablemos de tu Proyecto</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Agenda tu Consulta Profesional</h2>
+                <p class="text-slate-300 text-sm leading-relaxed">¿Requieres asistencia con tus impuestos, orden en tus balances o asesoramiento societario? Completa el formulario y nos pondremos en contacto en menos de 24 horas.</p>
+                <div class="space-y-4 pt-4">
+                    <div class="flex items-center gap-4 text-slate-300 text-sm"><div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-500 flex items-center justify-center font-bold">📧</div><span>estudio@valentinagonzalez.com</span></div>
+                    <div class="flex items-center gap-4 text-slate-300 text-sm"><div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-500 flex items-center justify-center font-bold">📞</div><span>+54 9 11 4567-8900</span></div>
+                    <div class="flex items-center gap-4 text-slate-300 text-sm"><div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-500 flex items-center justify-center font-bold">📍</div><span>Av. Corrientes 1500, CABA (Oficina 402)</span></div>
+                </div>
+            </div>
+            <div class="lg:col-span-6 bg-slate-950 p-8 rounded-2xl border border-slate-800">
+                <form onsubmit="handleContactSubmit(event)" class="space-y-4">
+                    <div><label class="block text-xs font-semibold text-slate-400 mb-1">Nombre y Apellido</label>
+                    <input type="text" id="c-name" required placeholder="Ej. Mariana Gómez" class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-amber-500"></div>
+                    <div><label class="block text-xs font-semibold text-slate-400 mb-1">Correo Electrónico</label>
+                    <input type="email" id="c-email" required placeholder="tu@correo.com" class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-amber-500"></div>
+                    <div><label class="block text-xs font-semibold text-slate-400 mb-1">Área de Interés Principal</label>
+                    <select id="c-service" class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-amber-500">
+                        <option value="impuestos">Liquidación de Impuestos / DDJJ</option>
+                        <option value="pymes">Asesoría Integral PyMEs</option>
+                        <option value="sueldos">Sueldos y Cargas Sociales (F.931)</option>
+                        <option value="monotributo">Monotributo y Autónomos</option>
+                        <option value="sociedades">Constitución de Sociedades</option>
+                        <option value="otro">Consulta general</option>
+                    </select></div>
+                    <div><label class="block text-xs font-semibold text-slate-400 mb-1">Detalle de tu Consulta</label>
+                    <textarea id="c-msg" rows="3" required placeholder="Cuéntanos brevemente sobre tu situación fiscal actual..." class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-amber-500"></textarea></div>
+                    <button type="submit" class="w-full py-3.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-sm transition-all shadow-lg shadow-amber-600/25">Enviar Solicitud de Cita</button>
+                    <p id="contact-success" class="text-xs text-emerald-400 text-center hidden pt-2">¡Consulta enviada con éxito! Nos comunicaremos contigo en breve.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 border-t border-slate-800 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3"><div class="w-8 h-8 rounded-lg bg-amber-600 flex items-center justify-center font-bold text-white text-sm">VG</div><span class="font-extrabold text-lg text-white">VALENTINA GONZÁLEZ</span></div>
+                    <p class="text-xs text-slate-400 leading-relaxed">Estudio Contable e Impositivo. Rigor técnico y compromiso profesional al servicio del crecimiento de tu empresa.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white text-sm mb-4">Navegación</h4>
+                    <ul class="space-y-2.5 text-xs text-slate-400">
+                        <li><a href="#inicio" class="hover:text-amber-500 transition-colors">Inicio</a></li>
+                        <li><a href="#servicios" class="hover:text-amber-500 transition-colors">Servicios Contables</a></li>
+                        <li><a href="#calculadora" class="hover:text-amber-500 transition-colors">Simulador Fiscal</a></li>
+                        <li><a href="#faq" class="hover:text-amber-500 transition-colors">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white text-sm mb-4">Especialidades</h4>
+                    <ul class="space-y-2.5 text-xs text-slate-400">
+                        <li><a href="#servicios" class="hover:text-amber-500 transition-colors">Impuestos & DDJJ</a></li>
+                        <li><a href="#servicios" class="hover:text-amber-500 transition-colors">Balances & Auditoría</a></li>
+                        <li><a href="#servicios" class="hover:text-amber-500 transition-colors">Sueldos y F.931</a></li>
+                        <li><a href="#servicios" class="hover:text-amber-500 transition-colors">Monotributo</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white text-sm mb-4">Atención Profesional</h4>
+                    <ul class="space-y-2.5 text-xs text-slate-400">
+                        <li>Lunes a Viernes: 9:00 - 18:00 hs</li>
+                        <li>Sábados: Con cita previa</li>
+                        <li>Modalidad: Presencial y Cloud Online</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-slate-900 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
+                <p>&copy; 2026 Estudio Contable Valentina González. Todos los derechos reservados.</p>
+                <div class="flex gap-6 mt-4 sm:mt-0">
+                    <a href="#" class="hover:text-slate-400">Política de Privacidad</a>
+                    <a href="#" class="hover:text-slate-400">Términos Legales</a>
+                    <a href="#" class="hover:text-slate-400">Acceso Clientes</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function updateTaxSimulation(val) {
+            const numVal = parseInt(val);
+            document.getElementById('slider-val').innerText = '$' + numVal.toLocaleString();
+            const regimeEl = document.getElementById('sim-regime');
+            const descEl = document.getElementById('sim-desc');
+            const taxEl = document.getElementById('sim-tax');
+            if (numVal <= 35000) {
+                regimeEl.innerText = "Monotributo Simplificado";
+                descEl.innerText = "Categorías iniciales con cuota mensual fija unificada (obra social, jubilación e impuesto integrado).";
+                taxEl.innerText = "Baja / Cuota Fija Unificada";
+            } else if (numVal <= 90000) {
+                regimeEl.innerText = "Monotributo Superior / Autónomos";
+                descEl.innerText = "Evaluación de conveniencia entre régimen simplificado o inscripción general según deducciones aplicables.";
+                taxEl.innerText = "Moderada / Según Categoría";
+            } else {
+                regimeEl.innerText = "Responsable Inscripto / Persona Jurídica";
+                descEl.innerText = "Sujeto al régimen general de IVA, Ganancias corporativas y balances contables certificados.";
+                taxEl.innerText = "Progresiva / Asesoría Dedicada";
+            }
+        }
+
+        function toggleFaq(el) {
+            const content = el.querySelector('.faq-content');
+            const icon = el.querySelector('.faq-icon');
+            const isHidden = content.classList.contains('hidden');
+            document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
+            document.querySelectorAll('.faq-icon').forEach(i => i.innerText = '+');
+            if (isHidden) {
+                content.classList.remove('hidden');
+                icon.innerText = '-';
+            }
+        }
+
+        function handleContactSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('c-name').value;
+            const successMsg = document.getElementById('contact-success');
+            successMsg.classList.remove('hidden');
+            showNotification(`¡Gracias ${name}! Tu solicitud ha sido registrada con éxito.`);
+            e.target.reset();
+            setTimeout(() => { successMsg.classList.add('hidden'); }, 5000);
+        }
+
+        function showNotification(text) {
+            const notif = document.createElement('div');
+            notif.className = "fixed bottom-5 right-5 z-50 bg-amber-600 text-white font-semibold px-5 py-3 rounded-xl shadow-2xl transition-all transform translate-y-0 opacity-100 text-sm flex items-center gap-2";
+            notif.innerHTML = `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>${text}`;
+            document.body.appendChild(notif);
+            setTimeout(() => {
+                notif.style.opacity = '0';
+                notif.style.transform = 'translateY(20px)';
+                setTimeout(() => notif.remove(), 300);
+            }, 3500);
+        }
+    </script>
+</body>
+</html>
